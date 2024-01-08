@@ -1,0 +1,18 @@
+[project]
+name = "ttpalette"
+version = "0.1.1"
+authors = [
+  { name="kinite-gp", email="kinitegp@gmail.com" },
+]
+description = "A library for coloring texts in the terminal"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
