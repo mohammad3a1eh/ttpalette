@@ -14,7 +14,7 @@ class Color:
     - RESET: ANSI escape code to reset text color to default
 
     Methods:
-    - costum(id): Returns a custom ANSI escape code based on the given color ID.
+    - custom(id): Returns a custom ANSI escape code based on the given color ID.
     - list_custom_colors(): Prints a list of custom colors with their IDs.
     """
 
@@ -28,7 +28,7 @@ class Color:
     WHITE = '\033[37m'
     RESET = '\033[0m'
     
-    def costum(id):
+    def custom(id):
         """
         Returns a custom ANSI escape code based on the given color ID.
 
@@ -64,7 +64,7 @@ class BackColor:
     - RESET: ANSI escape code to reset background color to default
 
     Methods:
-    - costum(id): Returns a custom ANSI escape code based on the given color ID.
+    - custom(id): Returns a custom ANSI escape code based on the given color ID.
     - list_custom_colors(): Prints a list of custom background colors with their IDs.
     """
 
@@ -78,7 +78,7 @@ class BackColor:
     WHITE = '\033[47m'
     RESET = '\033[0m'
     
-    def costum(id):
+    def custom(id):
         """
         Returns a custom ANSI escape code based on the given color ID.
 

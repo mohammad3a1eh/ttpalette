@@ -23,8 +23,8 @@ pip install ttpalette
 ```python
 from ttpalette import ttpalette
 
-ttpalette.BackColor().costum(14)
-ttpalette.Color().costum(14)
+ttpalette.BackColor().custom(14)
+ttpalette.Color().custom(14)
 ```
 
 #### Use a solid color
